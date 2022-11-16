@@ -1,4 +1,4 @@
- const { assertArraysEqual } = require ('./assertArraysEqual')
+const { assertArraysEqual } = require ('./assertArraysEqual')
 const without = function (source, itemsToRemove) {
     const result = [];
     for (let num of source) {
